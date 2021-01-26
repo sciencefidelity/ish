@@ -7,6 +7,7 @@ depend() {
 }
 
 start() {
+	exit 0
 	if [ -s /etc/hostname ] ; then
 		opts="-F /etc/hostname"
 	else
