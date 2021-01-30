@@ -8,3 +8,5 @@ for script in /etc/profile.d/*.sh ; do
                 . $script
         fi
 done
+
+sudo su matt
