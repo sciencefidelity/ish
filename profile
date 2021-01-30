@@ -9,5 +9,5 @@ for script in /etc/profile.d/*.sh ; do
         fi
 done
 
+cd /home/matt
 sudo su matt
-cd
