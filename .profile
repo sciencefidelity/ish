@@ -14,3 +14,5 @@ eval `dircolors ~/.dir_colors`
 alias l='ls -f'
 alias la='ls -Al' 
 alias ll='ls -l'
+
+alias poweroff='exit; poweroff'
