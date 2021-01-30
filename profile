@@ -10,3 +10,4 @@ for script in /etc/profile.d/*.sh ; do
 done
 
 sudo su matt
+cd
