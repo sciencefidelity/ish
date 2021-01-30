@@ -15,4 +15,4 @@ alias l='ls -f'
 alias la='ls -Al' 
 alias ll='ls -l'
 
-alias poweroff='exit; poweroff'
+alias exit='exit; exit'
