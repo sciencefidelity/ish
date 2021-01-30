@@ -1,7 +1,12 @@
-# Tell ls to be colourful
+# Tell ls to be colorful
 alias ls='ls --color=auto'
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+# Test the color of the terminal
+true_color() {
+  printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
+}
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
