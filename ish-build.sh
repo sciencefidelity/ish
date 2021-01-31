@@ -3,7 +3,7 @@
 apk update
 apk upgrade
 
-apk add openssh openrc tmux curl vim coreutils tar busybox-extras grep sudo apache2 bash
+apk add openssh openrc tmux curl vim coreutils tar busybox-extras grep sudo bash
 
 rm /etc/inittab
 curl https://raw.githubusercontent.com/sciencefidelity/ish/main/inittab -o /etc/inittab
