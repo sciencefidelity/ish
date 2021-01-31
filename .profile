@@ -1,5 +1,4 @@
 # Tell ls to be colorful
-alias ls='ls --color=auto'
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
@@ -16,6 +15,8 @@ PS1='\[\033[38;5;214m\]\u\[\033[38;5;230m\]@\[\033[38;5;142m\]\h\[\033[38;5;230m
 
 eval `dircolors ~/.dir_colors`
 
-alias l='ls -f'
-alias la='ls -Al' 
-alias ll='ls -l'
+alias l='ls -f --color=auto'
+alias la='ls -Al --color=auto' 
+alias ll='ls -l --color=auto'
+
+alias ..='cd ../'
