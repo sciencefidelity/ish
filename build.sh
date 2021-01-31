@@ -21,6 +21,7 @@ chmod 777 /dev/null
 wget https://raw.githubusercontent.com/sciencefidelity/ish/main/.profile
 wget https://raw.githubusercontent.com/sciencefidelity/dotfiles/main/.bash_profile
 wget https://raw.githubusercontent.com/sciencefidelity/dotfiles/main/.vimrc
+wget https://raw.githubusercontent.com/sciencefidelity/dotfiles/main/.dir_colors
 
 mkdir .vim
 mkdir .vim/colors
