@@ -11,7 +11,6 @@ curl https://raw.githubusercontent.com/sciencefidelity/ish/main/inittab -o /etc/
 # Set up SSHD
 
 ssh-keygen -A
-rc-update add sshd
 curl https://raw.githubusercontent.com/sciencefidelity/ish/main/sshd_config -o /etc/ssh/sshd_config
 
 chmod 777 /dev/null
@@ -36,3 +35,4 @@ curl https://raw.githubusercontent.com/sciencefidelity/ish/main/motd -o /etc/mot
 
 rm /etc/init.d/networking
 curl https://raw.githubusercontent.com/sciencefidelity/ish/main/networking -o /etc/init.d/networking
+chmod +x /etc/init.d/networking
