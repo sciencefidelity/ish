@@ -35,6 +35,3 @@ curl https://raw.githubusercontent.com/sciencefidelity/ish/main/motd -o /etc/mot
 
 rm /etc/init.d/networking
 curl https://raw.githubusercontent.com/sciencefidelity/ish/main/networking -o /etc/init.d/networking
-
-# Set up Apache2
-
