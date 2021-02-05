@@ -15,8 +15,11 @@ PS1='\[\033[38;5;214m\]\u\[\033[38;5;230m\]@\[\033[38;5;142m\]\h\[\033[38;5;230m
 
 eval `dircolors ~/.dir_colors`
 
-alias l='ls -f --color=auto'
-alias la='ls -Al --color=auto' 
-alias ll='ls -l --color=auto'
+alias l='ls -f'
+alias ll='ls -lh'
+alias la='ls -Alh'
 
 alias ..='cd ..'
+
+# Prevent typing password too often
+alias sudo='sudo -v; sudo '
